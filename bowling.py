@@ -21,7 +21,7 @@ def score(game):
         last = get_value(game[i])
         if not in_first_half:
             frame += 1
-        if in_first_half == True:
+        if in_first_half is True:
             in_first_half = False
         else:
             in_first_half = True

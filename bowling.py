@@ -32,7 +32,7 @@ def score(game):
 def get_value(char):
     if '1' <= char <= '9':
         return int(char)
-    elif char in 'xX' or char == '/':
+    elif char in 'xX/':
         return 10
     elif char == '-':
         return 0
